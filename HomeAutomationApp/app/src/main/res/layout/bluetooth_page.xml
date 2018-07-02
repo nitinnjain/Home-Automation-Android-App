@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main Linear Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Linear Layout for Switch 1 and 2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Linear Layout for textview of switch 1 and 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/switch1_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Switch1"
+                    android:paddingLeft="16dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+                <TextView
+                    android:id="@+id/switch2_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Switch2"
+                    android:paddingLeft="86dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+            </LinearLayout>
+
+            <!-- Linear Layout for buttons for switch 1 and 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <Button
+                    android:id="@+id/switch1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:layout_marginRight="8dp"
+                    android:background="@android:color/holo_red_dark"/>
+
+                <Button
+                    android:id="@+id/switch2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="16dp"
+                    android:layout_height="wrap_content"
+                    android:text="On"
+                    android:background="@android:color/holo_green_dark"/>
+                <Button
+                    android:id="@+id/switch3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:layout_marginRight="8dp"
+                    android:background="@android:color/holo_red_dark"/>
+                <Button
+                    android:id="@+id/switch4"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="On"
+                    android:background="@android:color/holo_green_dark"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/switch3_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Switch3"
+                    android:paddingLeft="16dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+                <TextView
+                    android:id="@+id/switch4_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Switch4"
+                    android:paddingLeft="86dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <Button
+                    android:id="@+id/switch5"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:layout_marginRight="8dp"
+                    android:background="@android:color/holo_red_dark"/>
+                <Button
+                    android:id="@+id/switch6"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="16dp"
+                    android:layout_height="wrap_content"
+                    android:text="On"
+                    android:background="@android:color/holo_green_dark"/>
+                <Button
+                    android:id="@+id/switch7"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:layout_marginRight="8dp"
+                    android:background="@android:color/holo_red_dark"/>
+                <Button
+                    android:id="@+id/switch8"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="On"
+                    android:background="@android:color/holo_green_dark"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/switch5_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Switch5"
+                android:paddingLeft="16dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <TextView
+                android:id="@+id/switch6_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Switch6"
+                android:paddingLeft="86dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/switch9"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Off"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/holo_red_dark"/>
+            <Button
+                android:id="@+id/switch10"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content"
+                android:text="On"
+                android:background="@android:color/holo_green_dark"/>
+            <Button
+                android:id="@+id/switch11"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Off"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/holo_red_dark"/>
+            <Button
+                android:id="@+id/switch12"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="On"
+                android:background="@android:color/holo_green_dark"/>
+
+        </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/switch7_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Switch7"
+                android:paddingLeft="16dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <TextView
+                android:id="@+id/switch8_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Switch8"
+                android:paddingLeft="86dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/switch13"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Off"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/holo_red_dark"/>
+            <Button
+                android:id="@+id/switch14"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content"
+                android:text="On"
+                android:background="@android:color/holo_green_dark"/>
+            <Button
+                android:id="@+id/switch15"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Off"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/holo_red_dark"/>
+            <Button
+                android:id="@+id/switch16"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="On"
+                android:background="@android:color/holo_green_dark"/>
+
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

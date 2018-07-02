@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.marvation">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BtPage1"
+            android:label="Room 1"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".BtPage2"
+            android:label="Room 1"
+            android:parentActivityName=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".BtPage3"
+            android:label="Room 1"
+            android:parentActivityName=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".BtPage4"
+            android:label="Room 1"
+            android:parentActivityName=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".BtPage5"
+            android:label="Room 1"
+            android:parentActivityName=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".DevicesPaired"
+            android:label="Paired Devices"
+            android:parentActivityName=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".ChangeRoomName"
+            android:label="Room Name"
+            android:parentActivityName=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".ChangeSwitchName"
+            android:label="Switch Name"
+            android:parentActivityName=".BtPage1" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity android:name=".Configure" />
+    </application>
+
+</manifest>

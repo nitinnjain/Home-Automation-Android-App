@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Marvation</string>
+    <!-- 8 switches in accordance with page 1 strings -->
+    <string name="switch1_page1">Switch 1</string>
+    <string name="switch2_page1">Switch 2</string>
+    <string name="switch3_page1">Switch 3</string>
+    <string name="switch4_page1">Switch 4</string>
+    <string name="switch5_page1">Switch 5</string>
+    <string name="switch6_page1">Switch 6</string>
+    <string name="switch7_page1">Switch 7</string>
+    <string name="switch8_page1">Switch 8</string>
+    <!-- Spinner name -->
+    <string name="room_1">Room 1</string>
+    <string name="room_2">Room 2</string>
+    <string name="room_3">Room 3</string>
+    <string name="room_4">Room 4</string>
+    <string name="room_5">Room 5</string>
+    <string name="select">Select</string>
+</resources>
